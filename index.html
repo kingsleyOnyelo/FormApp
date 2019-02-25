@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="formOne">
+    <form id="levelup">
+        <label for="firstName">First Name:</label>
+            <input type="text" required id="fName" maxlength="15"></br></br>
+        <label for="lastName">Last Name:</label>
+            <input type="text" required id="lName" maxlength="15"></br></br>
+        <label for="email">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" required id="email" maxlength="15">
+        </br></br>
+        <label for="zipcode">Zipcode:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" required id="zipcode" maxlength="6">
+        </br></br>
+        <label for="age">Age:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="number" required id="age">
+            <br/><br/><br/>
+            <input type="radio" name="gender" id="male" checked required value="Male">Male</input>
+            <input type="radio" name="gender" id="female" required value="Female">Female</input>
+            <input type="button" value="Submit" id="done" onclick="finish()">
+
+        </form>
+    </div>  
+    
+
+    <div id="show">
+        <p id="result1">Hello world</p>
+
+
+    </div>
+
+    <script src="form.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+#formOne{
+    background: red;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-left: 150px;
+    width: 400px;
+    height: 400px;
+    position:absolute;
+    display:block;
+}
+
+#levelup{
+    margin-left: 50px;
+    color: white;
+    display: block;
+    margin-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input{
+    color: black;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid blueviolet;
+    background: lightblue;
+}
+
+#show{
+    width:400px;
+    height:400px;
+    background: blue;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius:10px;
+    margin-top:40px;
+    margin-left: 660px;
+    display: inline-block;
+    text-align: center;
+    visibility: hidden;
+}
